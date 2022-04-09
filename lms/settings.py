@@ -79,11 +79,16 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'lms',
-        'USER': 'dipta',
-        'PASSWORD':'1234',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'django.db.backends.sqlite3'
     }
+    # 'default': {
+    #     'ENGINE': 'django.db.backends.mysql',
+    #     'NAME': 'lms',
+    #     'USER': 'dipta',
+    #     'PASSWORD': '1234',
+    #
+    # }
 }
 
 
