@@ -1,0 +1,6 @@
+Django==3.2.3
+db-sqlite3==0.0.1
+django-crispy-forms==1.14.0
+django-bootstrap4==22.1
+mysqlclient==1.4.6
+Pillow==9.1.0
